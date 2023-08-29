@@ -7,7 +7,6 @@ def euro_to_usd(euro_amount, exchange_rate):
     usd_amount = euro_amount * exchange_rate
     return usd_amount
 
-# Benutzereingabe für den Euro-Betrag
 euro_input = float(input("Gib den Betrag in Euro ein: "))
 
 try:
